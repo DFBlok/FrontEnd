@@ -17,7 +17,7 @@ const CH4 = () => {
           </div>
         </div>  
       </header> 
-      <section className='text-black'>
+      <section className='text-black py-11'>
         <div className='w-[80%] mx-auto p-5'>
           <div className='flex gap-10'>
               <div className='text-center p-5'>
@@ -37,6 +37,28 @@ const CH4 = () => {
                 </p>
               </div>
           </div>
+        </div>
+
+      </section>
+      <section className='bg-[teal] text-white py-12'>
+        <div className='w-[80%] mx-auto p-5'>
+          <div className='flex gap-10'>
+            <div className='text-center'>
+              <h1 className='font-bold text-4xl mb-5'>Cheap</h1>
+              <p className='text-sm'>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, doloremque! Nostrum maiores, quo doloribus, quae accusamus ipsa fugit neque,
+                ea repellendus veritatis a aut laboriosam nulla enim voluptate eaque assumenda!</p>
+            </div>
+            <div className='text-center'>
+              <h1 className='font-bold text-4xl mb-5'>Quick</h1>
+              <p className='text-sm'>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam exercitationem quae voluptatibus, veniam iusto hic ducimus vero,
+                est assumenda sed accusantium aspernatur dignissimos magnam minus esse porro quisquam vel eos!
+              </p>
+          </div>
+         
+          </div>
+
         </div>
 
       </section>
