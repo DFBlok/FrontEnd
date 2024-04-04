@@ -49,42 +49,51 @@ const CH6 = () => {
         </div>
       </div>  
     </header> 
-    <section className='text-black py-11'>
+    <section className='text-black py-8'>
       <div id='nextSection' className='w-[70%] mx-auto p-5'>
         <div className='flex gap-5'>
-          <div className=''>
-            <h1 className='text-lg text-[teal] font-bold mb-4 mt-2 '>
+          <div className='flex-initial w-3/4'>
+            <h1 className='text-purple-600 text-3xl mb-6'>
               Quality design made custom, on demand, just for you
             </h1>
-            <p className='mb-10'>
+            <p className='text-lg mb-6'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa maxime nostrum quidem, adipisci eum odit voluptates. Ipsum commodi esse
               odio facilis praesentium quibusdam obcaecati explicabo fuga, provident illo reprehenderit similique?
             </p>
-            <p>
+            <p className='text-lg mb-6'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. In minima architecto incidunt atque dolores
               facilis modi deleniti voluptates, hic corrupti quam nobis harum, neque natus eveniet numquam libero consequatur id.
             </p>
+            <p className='text-lg mb-6'>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem odit quo corporis alias itaque quisquam suscipit beatae tempore, fuga vel quaerat eveniet sit illum libero, et molestiae ex quos dolor?
+            </p>
           </div>
-          <div className='flex-col gap-10 text-white bg-teal-900'>
-              <div className='text-center p-5'>
-                <h1 className='font-bold text-2xl mb-4'>Cheap</h1>
-                <p className='text-center'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius hic dignissimos error nemo? Soluta error autem sapiente dignissimos in earum eos, ratione voluptatum quia? Excepturi aut minima aperiam vero quidem.
-                </p>
-              </div>
-              <div className='text-center p-5'>
-                <h1 className='font-bold text-2xl mb-4'>Quick</h1>
-                <p className='text-center'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos doloremque, ab corporis assumenda nisi officia. Saepe quo enim praesentium placeat eum odio perferendis similique porro autem quasi, ea sunt nam?
-                </p>
-              </div>
-              <div className='text-center p-5'>
-                <h1 className=' font-bold text-2xl mb-4'>Quality</h1>
-                <p className='text-center'>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde officiis quis commodi accusamus iste vero debitis saepe nam! Quos nisi perspiciatis dolore tempore! Unde doloribus repudiandae perferendis minima totam blanditiis.
-                </p>
-              </div>
-          </div>          
+        <div className='flex-initial w-1/4 bg-green-900 text-white p-4'>
+            <div>
+                <div >
+                    <div className='text-center p-5'>
+                    <h1 className='font-bold text-2xl mb-4'>Cheap</h1>
+                    <p className='text-center'>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius hic dignissimos error nemo? Soluta error autem sapiente dignissimos in earum eos, ratione voluptatum quia? Excepturi aut minima aperiam vero quidem.
+                    </p>
+                </div>
+                <div className='text-center p-5'>
+                    <h1 className='font-bold text-2xl mb-4'>Quick</h1>
+                    <p className='text-center'>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos doloremque, ab corporis assumenda nisi officia. Saepe quo enim praesentium placeat eum odio perferendis similique porro autem quasi, ea sunt nam?
+                    </p>
+                </div>
+                <div className='text-center p-5'>
+                    <h1 className=' font-bold text-2xl mb-4'>Quality</h1>
+                    <p className='text-center'>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde officiis quis commodi accusamus iste vero debitis saepe nam! Quos nisi perspiciatis dolore tempore! Unde doloribus repudiandae perferendis minima totam blanditiis.
+                    </p>
+                    </div>
+                </div>
+              
+            </div>          
+          </div>
+
         </div>
 
       </div>
