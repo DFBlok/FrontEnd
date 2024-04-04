@@ -14,6 +14,9 @@ const CH4 = () => {
             <button className="px-3 py-2 bg-purple-600 rounded-full uppercase font-semibold text-black" >
               I want to learn
             </button>
+            <div className=''>
+
+            </div>
           </div>
         </div>  
       </header> 
