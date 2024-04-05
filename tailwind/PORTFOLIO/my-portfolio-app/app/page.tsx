@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <header className="bg-gray-200 text-white py-12 h-full">
+      <header className="bg-gray-200 text-white py-12 w-full max-h-screen">
         <div className="w-[80%] mx-auto p-5  item-center">
           <div>
             <h1 className="text-4xl font-semibold py-9 text-center">HELLO WORLD!!
