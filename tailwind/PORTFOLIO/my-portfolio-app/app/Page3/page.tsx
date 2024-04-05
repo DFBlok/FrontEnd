@@ -61,9 +61,6 @@ function Page3() {
  */}
   </div>
 </section>
-
-
-        
     </>
   )
 }
