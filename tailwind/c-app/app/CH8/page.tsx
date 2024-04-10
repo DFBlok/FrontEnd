@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./ui/Navbar";
 import SectionOne from "./ui/SectionOne";
 import SectionTwo from "./ui/SectionTwo";
+import SectionThree from "./ui/SectionThree";
 
 const CH8 = () => {
   return (
@@ -10,6 +11,7 @@ const CH8 = () => {
       <Navbar />
       <SectionOne />
       <SectionTwo />
+      <SectionThree />
     </div>
   );
 };
