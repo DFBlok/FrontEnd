@@ -1,8 +1,19 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "./CH6/_components/navbar";
+import Navbar from "./CH6/_components/Navbar";
+import { Oswald, Montserrat } from "next/font/google";
 
+const moon = Montserrat({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--moon",
+});
+const oswald = Oswald({
+  subsets: ["latin"],
+  weight: ["700"],
+  variable: "--oswald",
+});
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -17,10 +28,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body
+        className={`h-full grid grid-rows-layout ${oswald.className} ${moon.className}`}
+      >
         <Navbar />
         {children}
-      <footer className="bg-purple-700 text-white p-6">This is a footer section</footer>
+        <footer className="bg-purple-700 text-white p-6">
+          This is a footer section
+        </footer>
       </body>
     </html>
   );
