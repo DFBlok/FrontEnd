@@ -3,6 +3,7 @@ import Navbar from "./ui/Navbar";
 import SectionOne from "./ui/SectionOne";
 import SectionTwo from "./ui/SectionTwo";
 import SectionThree from "./ui/SectionThree";
+import Footer from "./ui/Footer";
 
 const CH8 = () => {
   return (
@@ -12,6 +13,7 @@ const CH8 = () => {
       <SectionOne />
       <SectionTwo />
       <SectionThree />
+      <Footer />
     </div>
   );
 };
