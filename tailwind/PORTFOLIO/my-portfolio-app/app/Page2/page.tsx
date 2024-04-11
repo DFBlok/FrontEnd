@@ -13,7 +13,7 @@ const Page2 = () => {
               current skills mostly in terms of programming and technology
             </p>
           </div>
-          <div className="flex gap-6 ">
+          <div className="flex gap-6">
             <div className="bg-red-500 w-[80%] p-4">
               <h2 className="text-3xl font-bold mb-3">Get to know me!</h2>
               <p className="text-m text-gray-200 mb-3">
@@ -38,7 +38,39 @@ const Page2 = () => {
                 Contact
               </button>
             </div>
-            <div className="bg-green-500 w/2">
+            <div className="bg-green-500 w-full md:w-auto p-4 md:ml-auto md:mt-0">
+              <h1 className="text-2xl font-bold mb-3">My Skills</h1>
+              <div className="flex flex-wrap gap-2">
+                <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold">
+                  Html
+                </button>
+                <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold">
+                  CSS
+                </button>
+                <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold">
+                  JavaScript
+                </button>
+                <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold">
+                  Tailwindcss
+                </button>
+                <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold">
+                  Node.js
+                </button>
+                <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold">
+                  SQL
+                </button>
+                <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold">
+                  C#
+                </button>
+                <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold">
+                  Python
+                </button>
+                <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold">
+                  ASP.Net/MVC
+                </button>
+              </div>
+            </div>
+            {/* <div className="bg-green-500 w-full md:auto">
               <h1 className="text-2xl font-bold mb-3 p-4">My skils</h1>
               <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold m-2">
                 Html
@@ -67,7 +99,7 @@ const Page2 = () => {
               <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold m-2">
                 ASP.Net/MVC
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
