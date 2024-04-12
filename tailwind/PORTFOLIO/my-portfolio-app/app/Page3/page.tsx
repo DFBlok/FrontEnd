@@ -79,9 +79,11 @@ function Page3() {
           </div>
         </div>
       </section> */}
-      <section className=" text-white py-12">
+      <section className="bg-gray-200 text-white py-12">
         <div className="w-[70%] mx-auto items-center">
-          <h1 className="text-center font-bold text-4xl mb-5">Projects</h1>
+          <h1 className="text-center text-black font-bold text-4xl mb-5">
+            Projects
+          </h1>
           <p className="text-m text-center text-gray-700 mb-3 px-5">
             Here you will find some of the personal and clients projects that I
             created with each project containing its own case study
