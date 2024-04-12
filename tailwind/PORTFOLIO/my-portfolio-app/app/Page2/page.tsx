@@ -13,8 +13,8 @@ const Page2 = () => {
               current skills mostly in terms of programming and technology
             </p>
           </div>
-          <div className="flex gap-6">
-            <div className="bg-red-500 w-[80%] p-4">
+          <div className="flex flex-col md:flex-row gap-6">
+            <div className="bg-red-500 w-1/2 p-4">
               <h2 className="text-3xl font-bold mb-3">Get to know me!</h2>
               <p className="text-m text-gray-200 mb-3">
                 I&apos;m a <b>Frontend Focused Web Developer</b> building and
@@ -38,7 +38,7 @@ const Page2 = () => {
                 Contact
               </button>
             </div>
-            <div className="bg-green-500 w-full md:w-auto p-4 md:ml-auto md:mt-0">
+            <div className="bg-green-500 w-1/2 p-4 md:mt-0">
               <h1 className="text-2xl font-bold mb-3">My Skills</h1>
               <div className="flex flex-wrap gap-2">
                 <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold">
