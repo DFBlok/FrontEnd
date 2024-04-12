@@ -5,8 +5,8 @@ export default function Home() {
     <>
       <header className="bg-gray-200 text-white py-12 w-full">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
-          <div className="flex flex-col md:flex-row items-center">
-            <div className="md:w-1/2">
+          <div className="flex flex-col gap-5 md:flex-row items-center">
+            <div className="w-1/2 md:mb-5">
               <h1 className="text-4xl font-semibold text-red-400 py-3 md:py-0 md:text-left mb-4">
                 Hello, I&apos;m Duwayne Blok
               </h1>
@@ -15,7 +15,7 @@ export default function Home() {
                 formerly known as Port Elizabeth.
               </p>
             </div>
-            <div className="md:w-1/2 md:ml-8">
+            <div className="w-1/2 md:ml-8 ">
               <div className="w-full md:w-96 mx-auto">
                 <Image
                   src="/asset/profile.jpg"
