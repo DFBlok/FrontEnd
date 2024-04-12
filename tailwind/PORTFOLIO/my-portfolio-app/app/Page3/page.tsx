@@ -79,16 +79,18 @@ function Page3() {
           </div>
         </div>
       </section> */}
-      <section className="bg-gray-500 text-white py-12">
+      <section className=" text-white py-12">
         <div className="w-[70%] mx-auto items-center">
           <h1 className="text-center font-bold text-4xl mb-5">Projects</h1>
-          <p className="text-m text-center text-gray-200 mb-3 px-5">
+          <p className="text-m text-center text-gray-700 mb-3 px-5">
             Here you will find some of the personal and clients projects that I
             created with each project containing its own case study
           </p>
           <div className="flex flex-col md:flex-row gap-5 border p-5 mb-3">
             <div className="w-full md:w-1/2 p-4">
-              <h1 className="text-xl font-bold mb-2">Title: </h1>
+              <h1 className="text-xl text-gray-700 font-bold mb-2">
+                Title: Project 1
+              </h1>
               <Image
                 src="/asset/project.jpg"
                 alt="img"
@@ -107,7 +109,9 @@ function Page3() {
               </button>
             </div>
             <div className="w-full md:w-1/2 p-4">
-              <h1 className="text-xl font-bold mb-2">Title: </h1>
+              <h1 className="text-xl  text-gray-700 font-bold mb-2">
+                Title: Project 2
+              </h1>
               <Image
                 src="/asset/project.jpg"
                 alt="img"
@@ -128,7 +132,9 @@ function Page3() {
           </div>
           <div className="flex flex-col md:flex-row gap-5 border p-5">
             <div className="w-full md:w-1/2 p-4">
-              <h1 className="text-xl font-bold mb-2">Title: </h1>
+              <h1 className="text-xl font-bold  text-gray-700 mb-2">
+                Title: Project 3
+              </h1>
               <Image
                 src="/asset/project.jpg"
                 alt="img"
@@ -147,7 +153,9 @@ function Page3() {
               </button>
             </div>
             <div className="w-full md:w-1/2 p-4">
-              <h1 className="text-xl font-bold mb-2">Title: </h1>
+              <h1 className="text-xl font-bold  text-gray-700 mb-2">
+                Title: Project 4
+              </h1>
               <Image
                 src="/asset/project.jpg"
                 alt="img"
