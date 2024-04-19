@@ -91,7 +91,11 @@ function Page3() {
           <div className="flex flex-col md:flex-row gap-5 border p-5 mb-3">
             <div className="w-full md:w-1/2 p-4">
               <h1 className="text-xl text-gray-700 font-bold mb-2">
-                Title: Project 1
+                Title:
+                <span className="text-red-400">
+                  {" "}
+                  Hospital Management System
+                </span>
               </h1>
               <Image
                 src="/asset/asp.net_core_mvc_porj.png"
@@ -106,13 +110,21 @@ function Page3() {
                 tenetur quae fugit unde excepturi a sunt odio veritatis quod
                 rerum, impedit natus exercitationem beatae.
               </p>
-              <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+              {/*               <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
                 Case Study
-              </button>
+              </button> */}
+              <a
+                href="https://github.com/DFBlok/HelpingHandsSystemDemo2"
+                target="_blank"
+                rel="noopener noreferrer"
+                className=" bg-blue-500 text-white px-4 py-2 rounded hover:bg-red-400"
+              >
+                Case Study
+              </a>
             </div>
             <div className="w-full md:w-1/2 p-4">
               <h1 className="text-xl  text-gray-700 font-bold mb-2">
-                Title: Project 2
+                Title: <span className="text-red-400">Project 2</span>
               </h1>
               <Image
                 src="/asset/Mern-proj.png"
@@ -127,7 +139,7 @@ function Page3() {
                 tenetur quae fugit unde excepturi a sunt odio veritatis quod
                 rerum, impedit natus exercitationem beatae.
               </p>
-              <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+              <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-red-400">
                 Case Study
               </button>
             </div>
@@ -135,7 +147,7 @@ function Page3() {
           <div className="flex flex-col md:flex-row gap-5 border p-5">
             <div className="w-full md:w-1/2 p-4">
               <h1 className="text-xl font-bold  text-gray-700 mb-2">
-                Title: Project 3
+                Title: <span className="text-red-400">Project 3</span>
               </h1>
               <Image
                 src="/asset/python-logo.png"
@@ -150,13 +162,13 @@ function Page3() {
                 tenetur quae fugit unde excepturi a sunt odio veritatis quod
                 rerum, impedit natus exercitationem beatae.
               </p>
-              <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+              <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-red-400">
                 Case Study
               </button>
             </div>
             <div className="w-full md:w-1/2 p-4">
               <h1 className="text-xl font-bold  text-gray-700 mb-2">
-                Title: Project 4
+                Title: <span className="text-red-400">Project 4</span>
               </h1>
               <Image
                 src="/asset/html proj.png"
@@ -171,7 +183,7 @@ function Page3() {
                 tenetur quae fugit unde excepturi a sunt odio veritatis quod
                 rerum, impedit natus exercitationem beatae.
               </p>
-              <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+              <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-red-400">
                 Case Study
               </button>
             </div>
