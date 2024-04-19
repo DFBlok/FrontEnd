@@ -14,7 +14,7 @@ const Page2 = () => {
             </p>
           </div>
           <div className="flex flex-col md:flex-row gap-6">
-            <div className="bg-red-500 w-1/2 p-4">
+            <div className="bg-gray-700 w-1/2 p-4">
               <h2 className="text-3xl font-bold mb-3">Get to know me!</h2>
               <p className="text-m text-gray-200 mb-3">
                 I&apos;m a <b>Frontend Focused Web Developer</b> building and
@@ -34,11 +34,11 @@ const Page2 = () => {
                 and grow. If you have a good opportunity that matches my skills
                 and experience then don&apos;t hesitate to contact me.
               </p>
-              <button className="text-lg bg-purple-600 text-white px-8 py-2 my-5 rounded-xl font-semibold">
+              <button className="text-lg bg-red-400 text-white px-8 py-2 my-5 rounded-xl font-semibold">
                 Contact
               </button>
             </div>
-            <div className="bg-green-500 w-1/2 p-4 md:mt-0">
+            <div className="bg-gray-700 w-1/2 p-4 md:mt-0">
               <h1 className="text-2xl font-bold mb-3">My Skills</h1>
               <div className="flex flex-wrap gap-2">
                 <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold">
