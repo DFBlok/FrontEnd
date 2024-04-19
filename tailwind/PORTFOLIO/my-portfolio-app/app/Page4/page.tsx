@@ -24,26 +24,46 @@ const Page4 = () => {
               </div>
               <div>
                 <h2 className="text-xl font-bold mb-2">Phone</h2>
-                <p>00 788 667678 0</p>
+                <p>033 251 5556</p>
               </div>
               <div>
                 <h2 className="text-xl font-bold mb-2">Email</h2>
-                <p>info@example.com</p>
+                <p>duwayne@gmail.com</p>
               </div>
               <div>
                 <h2 className="text-xl font-bold mb-2">Social Media</h2>
                 <ul>
                   <li>
                     Facebook:{" "}
-                    <a href="#">
-                      <i className="fab fa-facebook"></i>example
+                    <a href="#" className="text-red-500 font-bold">
+                      <i className="fab fa-facebook"></i>Duwayne
                     </a>
                   </li>
                   <li>
-                    Twitter: <a href="#">example</a>
+                    Twitter:{" "}
+                    <a href="#" className="text-red-500 font-bold">
+                      Duwayne
+                    </a>
                   </li>
                   <li>
-                    Instagram: <a href="#">example</a>
+                    LinkedIn:{" "}
+                    <a
+                      href="https://www.linkedin.com/in/duwayne-blok-9bb2b8184/"
+                      target="blank"
+                      className="text-red-500 font-bold"
+                    >
+                      Duwayne
+                    </a>
+                  </li>
+                  <li>
+                    Github:{" "}
+                    <a
+                      href="https://github.com/DFBlok?tab=overview&from=2024-04-01&to=2024-04-19"
+                      target="Blank"
+                      className="text-red-500 font-bold"
+                    >
+                      DFB
+                    </a>
                   </li>
                 </ul>
               </div>
