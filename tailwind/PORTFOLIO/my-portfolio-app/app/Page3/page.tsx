@@ -94,7 +94,7 @@ function Page3() {
                 Title: Project 1
               </h1>
               <Image
-                src="/asset/project.jpg"
+                src="/asset/asp.net_core_mvc_porj.png"
                 alt="img"
                 width={100}
                 height={100}
@@ -115,7 +115,7 @@ function Page3() {
                 Title: Project 2
               </h1>
               <Image
-                src="/asset/project.jpg"
+                src="/asset/Mern-proj.png"
                 alt="img"
                 width={100}
                 height={100}
@@ -138,7 +138,7 @@ function Page3() {
                 Title: Project 3
               </h1>
               <Image
-                src="/asset/project.jpg"
+                src="/asset/python-logo.png"
                 alt="img"
                 width={100}
                 height={100}
@@ -159,7 +159,7 @@ function Page3() {
                 Title: Project 4
               </h1>
               <Image
-                src="/asset/project.jpg"
+                src="/asset/html proj.png"
                 alt="img"
                 width={100}
                 height={100}
