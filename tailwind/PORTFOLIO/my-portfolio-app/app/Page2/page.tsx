@@ -34,38 +34,40 @@ const Page2 = () => {
                 and grow. If you have a good opportunity that matches my skills
                 and experience then don&apos;t hesitate to contact me.
               </p>
-              <button className="text-lg bg-red-400 text-white px-8 py-2 my-5 rounded-xl font-semibold">
-                Contact
-              </button>
+              <a href="/Page4">
+                <button className="text-lg bg-blue-500 text-white px-8 py-2 my-5 rounded-xl font-semibold hover:bg-red-400">
+                  Contact
+                </button>
+              </a>
             </div>
             <div className="bg-gray-700 w-1/2 p-4 md:mt-0">
               <h1 className="text-2xl font-bold mb-3">My Skills</h1>
               <div className="flex flex-wrap gap-2">
-                <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold">
+                <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold  hover:bg-red-400">
                   Html
                 </button>
-                <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold">
+                <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold hover:bg-red-400">
                   CSS
                 </button>
-                <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold">
+                <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold  hover:bg-red-400">
                   JavaScript
                 </button>
-                <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold">
+                <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold  hover:bg-red-400">
                   Tailwindcss
                 </button>
-                <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold">
+                <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold  hover:bg-red-400">
                   Node.js
                 </button>
-                <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold">
+                <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold hover:bg-red-400">
                   SQL
                 </button>
-                <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold">
+                <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold  hover:bg-red-400">
                   C#
                 </button>
-                <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold">
+                <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold  hover:bg-red-400">
                   Python
                 </button>
-                <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold">
+                <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold hover:bg-red-400">
                   ASP.Net/MVC
                 </button>
               </div>
