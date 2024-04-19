@@ -124,7 +124,7 @@ function Page3() {
             </div>
             <div className="w-full md:w-1/2 p-4">
               <h1 className="text-xl  text-gray-700 font-bold mb-2">
-                Title: <span className="text-red-400">Project 2</span>
+                Title: <span className="text-red-400">DOM Project</span>
               </h1>
               <Image
                 src="/asset/Mern-proj.png"
@@ -147,7 +147,7 @@ function Page3() {
           <div className="flex flex-col md:flex-row gap-5 border p-5">
             <div className="w-full md:w-1/2 p-4">
               <h1 className="text-xl font-bold  text-gray-700 mb-2">
-                Title: <span className="text-red-400">Project 3</span>
+                Title: <span className="text-red-400">Alient Ship Project</span>
               </h1>
               <Image
                 src="/asset/python-logo.png"

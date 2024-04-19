@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div>
       <header className="bg-gray-800 py-4">
-        <nav className="w-[80%] mx-auto flex gap-6">
+        <nav className="w-[80%] mx-auto flex flex-wrap gap-6">
           {links.map((link) => (
             <Link
               href={link.href}
