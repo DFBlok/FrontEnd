@@ -14,7 +14,7 @@ const Navbar = () => {
     <div>
       <header className="bg-gray-800 py-4">
         <nav className="w-[80%] mx-auto flex flex-wrap gap-6">
-          {links.map((link) => (
+          {/* {links.map((link) => (
             <Link
               href={link.href}
               key={link.id}
@@ -22,6 +22,13 @@ const Navbar = () => {
             >
               {link.label}
             </Link>
+          ))} */}
+          {links.map((link) => (
+            <li key={link.id} className="list-none">
+              <Link href={link.href} className="text-white font-medium text-lg">
+                {link.label}
+              </Link>
+            </li>
           ))}
         </nav>
       </header>

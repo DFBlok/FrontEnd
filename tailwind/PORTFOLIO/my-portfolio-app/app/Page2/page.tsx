@@ -34,7 +34,7 @@ const Page2 = () => {
                 and grow. If you have a good opportunity that matches my skills
                 and experience then don&apos;t hesitate to contact me.
               </p>
-              <a href="/Page4">
+              <a href="/ContactPage">
                 <button className="text-lg bg-blue-500 text-white px-8 py-2 my-5 rounded-xl font-semibold hover:bg-red-400">
                   Contact
                 </button>
