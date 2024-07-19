@@ -86,8 +86,9 @@ const ContactForm = () => {
       </form>
       <div className="bg-slate-100 flex flex-col">
         {error &&
-          error.map((e) => (
+          error.map((e, index) => (
             <div
+              key={index}
               className={`${success ? "text-green-600" : "text-red-600"} px-5 py-5`}
             >
               {e}
