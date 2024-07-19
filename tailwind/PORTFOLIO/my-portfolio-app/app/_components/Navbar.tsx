@@ -6,6 +6,7 @@ const Navbar = () => {
     { id: 1, label: "Home", href: "/" },
     { id: 2, label: "About Me", href: "Page2" },
     { id: 3, label: "Projects", href: "Page3" },
+    //updated contact page
     { id: 4, label: "Contact", href: "ContactPage" },
   ];
 
