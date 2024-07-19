@@ -15,7 +15,7 @@ const ContactForm = () => {
     console.log("Email", email);
     console.log("message", message);
 
-    const res = await fetch("http://localhost:3001/api/contact", {
+    const res = await fetch("http://localhost:3000/api/contact", {
       method: "POST",
       headers: {
         "Content-type": "application/json",
