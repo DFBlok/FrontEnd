@@ -3,7 +3,7 @@ import connectDB from "@/app/lib/mongodb";
 import Contact from "@/app/models/contact";
 import mongoose from "mongoose";
 
-export async function POST(req) {
+export async function POST(req: Request) {
   const { fullname, email, message } = await req.json();
 
   /* console.log("Full name: ", fullname);

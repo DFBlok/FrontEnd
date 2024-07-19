@@ -8,7 +8,7 @@ const ContactForm = () => {
   const [error, setError] = useState([]);
   const [success, setSuccess] = useState(false);
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     console.log("Full  name", fullname);
