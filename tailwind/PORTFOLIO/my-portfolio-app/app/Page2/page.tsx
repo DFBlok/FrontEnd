@@ -17,17 +17,16 @@ const Page2 = () => {
             <div className="bg-gray-700 w-1/2 p-4">
               <h2 className="text-3xl font-bold mb-3">Get to know me!</h2>
               <p className="text-m text-gray-200 mb-3">
-                I&apos;m a <b>Frontend Focused Web Developer</b> building and
-                managing the Front-end of Websites and Web Applications that
-                leads to the success of the overall product. Check out some of
-                my work in the Projects section.
+                I&apos;m a <b>Full-Stack Developer</b> building and managing the
+                Front-end of Websites and Web Applications that leads to the
+                success of the overall product. Check out some of my work in the
+                Projects section.
               </p>
               <p className="text-m text-gray-200 mb-3">
                 I also like sharing content related to the stuff that I have
                 learned over the years in Web Development so it can help other
                 people of the Dev Community. Feel free to Connect or Follow me
-                on my Linkedin and Instagram where I post useful content related
-                to Web Development and Programming
+                on my Linkedin.
               </p>
               <p className="text-m text-gray-200 mb-3">
                 I&apos;m open to Job opportunities where I can contribute, learn
@@ -69,6 +68,18 @@ const Page2 = () => {
                 </button>
                 <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold hover:bg-red-400">
                   ASP.Net/MVC
+                </button>
+                <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold hover:bg-red-400">
+                  MERN
+                </button>
+                <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold hover:bg-red-400">
+                  Shadcn
+                </button>
+                <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold hover:bg-red-400">
+                  Next.js
+                </button>
+                <button className="bg-gray-300 p-2 rounded-xl text-m font-semibold hover:bg-red-400">
+                  React.js
                 </button>
               </div>
             </div>
