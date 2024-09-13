@@ -3,7 +3,7 @@ import ContactForm from "../_components/ContactForm";
 
 const ContactPage = () => {
   return (
-    <div className="p-4 min-h-screen flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+    <div className="bg-gray-100 p-4 min-h-screen flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
       <div className=" shadow-lg rounded-lg overflow-hidden w-full max-w-3xl">
         <div className="px-6 py-8">
           <h1 className="text-3xl font-bold text-gray-900 mb-4">Contact Us</h1>
