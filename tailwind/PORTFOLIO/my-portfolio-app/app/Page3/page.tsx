@@ -120,9 +120,29 @@ function Page3() {
                 tenetur quae fugit unde excepturi a sunt odio veritatis quod
                 rerum, impedit natus exercitationem beatae.
               </p>
-              <button className="bg-blue-500 text-white px-6 py-3 rounded-full shadow-lg hover:bg-red-500 transition-all duration-300">
+              {/* <button className="bg-blue-500 text-white px-6 py-3 rounded-full shadow-lg hover:bg-red-500 transition-all duration-300">
                 Case Study
-              </button>
+              </button> */}
+              <div className="flex gap-4">
+                <a
+                  href="https://your-website-link.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="bg-blue-500 text-white px-6 py-3 rounded-full shadow-lg hover:bg-blue-700 transition-all duration-300">
+                    View Website
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/your-repository-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="bg-gray-800 text-white px-6 py-3 rounded-full shadow-lg hover:bg-gray-600 transition-all duration-300">
+                    View GitHub Code
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
