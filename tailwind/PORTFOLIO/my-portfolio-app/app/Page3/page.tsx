@@ -64,8 +64,8 @@ function Page3() {
           <div className="flex flex-col md:flex-row-reverse gap-5 border p-10 mb-10 bg-gray-300 rounded-3xl shadow-lg">
             <div className="w-full md:w-1/2 p-4">
               <Image
-                src="https://picsum.photos/900/500"
-                alt="img"
+                src="/asset/velisa-landing-page.png"
+                alt="velisa landing page project"
                 layout="responsive"
                 width={900}
                 height={900}
@@ -74,7 +74,8 @@ function Page3() {
             </div>
             <div className="w-full md:w-1/2 p-4 flex flex-col justify-center">
               <h1 className="text-3xl text-gray-800 font-semibold mb-5">
-                Title: <span className="text-blue-500">API Project</span>
+                Title:{" "}
+                <span className="text-blue-500">Velisa Landing Page</span>
               </h1>
               <p className="text-gray-600 leading-relaxed mb-8 text-lg">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
