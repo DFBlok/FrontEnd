@@ -85,7 +85,7 @@ function Page3() {
               </p>
               <div className="flex gap-4">
                 <a
-                  href="https://devportofolio-5sz2vkmfe-dfbloks-projects.vercel.app"
+                  href="https://landing-page-lgd0nbtum-dfbloks-projects.vercel.app"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -94,7 +94,7 @@ function Page3() {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/DFBlok/FrontEnd"
+                  href="https://github.com/DFBlok/landing-page"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
