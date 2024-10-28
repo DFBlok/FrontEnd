@@ -133,7 +133,7 @@ const Page2 = () => {
             <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg flex-1">
               <h2 className="text-3xl font-bold mb-4">Get to Know Me!</h2>
               <p className="text-lg mb-4">
-                I'm a <b>Full-Stack Developer</b> building and managing the
+                I&apos;m a <b>Full-Stack Developer</b> building and managing the
                 Front-end of Websites and Web Applications that lead to the
                 success of the overall product. Check out some of my work in the
                 Projects section.
@@ -144,9 +144,9 @@ const Page2 = () => {
                 Community. Feel free to connect or follow me on LinkedIn.
               </p>
               <p className="text-lg mb-6">
-                I'm open to job opportunities where I can contribute, learn, and
-                grow. If you have a good opportunity that matches my skills and
-                experience, don’t hesitate to contact me.
+                I&apos;m open to job opportunities where I can contribute,
+                learn, and grow. If you have a good opportunity that matches my
+                skills and experience, don&apos;t hesitate to contact me.
               </p>
               <a href="/ContactPage">
                 <button className="bg-blue-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-600 transition duration-300">
