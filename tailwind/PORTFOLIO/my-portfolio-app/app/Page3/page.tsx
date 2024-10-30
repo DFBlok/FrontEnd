@@ -155,7 +155,7 @@ function Page3() {
           </div>
 
           {/*Projext 4*/}
-          <div className="flex flex-col md:flex-row-reverse gap-5 border p-10 mb-10 bg-gray-300 rounded-3xl shadow-lg">
+          {/* <div className="flex flex-col md:flex-row-reverse gap-5 border p-10 mb-10 bg-gray-300 rounded-3xl shadow-lg">
             <div className="w-full md:w-1/2 p-4">
               <Image
                 src="https://picsum.photos/900/500"
@@ -176,9 +176,7 @@ function Page3() {
                 tenetur quae fugit unde excepturi a sunt odio veritatis quod
                 rerum, impedit natus exercitationem beatae.
               </p>
-              {/* <button className="bg-blue-500 text-white px-6 py-3 rounded-full shadow-lg hover:bg-red-500 transition-all duration-300">
-                Case Study
-              </button> */}
+            
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
                   href="https://your-website-link.com"
@@ -200,7 +198,7 @@ function Page3() {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </>
