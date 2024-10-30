@@ -78,14 +78,13 @@ function Page3() {
                 <span className="text-blue-500">Velisa Landing Page</span>
               </h1>
               <p className="text-gray-600 leading-relaxed mb-8 text-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Accusamus recusandae aliquam delectus rem quos molestiae,
-                tenetur quae fugit unde excepturi a sunt odio veritatis quod
-                rerum, impedit natus exercitationem beatae.
+                This project is a responsive Landing Page for a MERN Stack
+                course for Velisa Africa Academy developed using Next.js and
+                Tailwind.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href="https://landing-page-lgd0nbtum-dfbloks-projects.vercel.app"
+                  href="https://landing-page-k1wbyex54-dfbloks-projects.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -126,13 +125,15 @@ function Page3() {
               </h1>
 
               <p className="text-gray-600 leading-relaxed mb-8 text-lg">
-                A React-based frontend project using Vite for fast development,
-                styled with TailwindCSS, and featuring routing, icons,
-                notifications, and HTTP requests.
+                This project is a responsive Real Estate Landing Page developed
+                using Next.js, emphasizing performance and user experience. The
+                landing page is designed with a modern aesthetic, utilizing
+                TailwindCSS for styling, ensuring that it is both visually
+                appealing and easy to navigate.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href="https://bookstore-crud-7hiofn3e6-dfbloks-projects.vercel.app/"
+                  href="https://real-estate-project-5l2ob3sbw-dfbloks-projects.vercel.app"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -141,7 +142,7 @@ function Page3() {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/DFBlok/React-Projects/tree/main/BookStoreProject-MERN"
+                  href="https://github.com/DFBlok/real-estate-project"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
