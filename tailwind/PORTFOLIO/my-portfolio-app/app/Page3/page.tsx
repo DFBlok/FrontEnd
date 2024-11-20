@@ -170,20 +170,20 @@ function Page3() {
               <h1 className="text-3xl text-gray-800 font-semibold mb-5">
                 Title:{" "}
                 <span className="text-blue-500">
-                  Jay's Solution - Landing Page
+                  Jay&apos;s Solution - Landing Page
                 </span>
               </h1>
               <p className="text-gray-600 leading-relaxed mb-8 text-lg">
-                This project is a responsive landing page for Jay's Facilities
-                Services, developed using Next.js with a focus on performance,
-                user experience, and a modern aesthetic. The page is designed to
-                showcase a wide range of facility management services, such as
-                general maintenance, plumbing, HVAC, and more. It is built with
-                TailwindCSS for rapid, utility-first styling, ensuring an
-                intuitive and visually appealing layout. This project utilizes
-                several modern tools, including Lucide-react icons and React
-                components, to deliver a seamless user experience across
-                devices.
+                This project is a responsive landing page for Jay&apos;s
+                Facilities Services, developed using Next.js with a focus on
+                performance, user experience, and a modern aesthetic. The page
+                is designed to showcase a wide range of facility management
+                services, such as general maintenance, plumbing, HVAC, and more.
+                It is built with TailwindCSS for rapid, utility-first styling,
+                ensuring an intuitive and visually appealing layout. This
+                project utilizes several modern tools, including Lucide-react
+                icons and React components, to deliver a seamless user
+                experience across devices.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
