@@ -155,10 +155,10 @@ function Page3() {
           </div>
 
           {/*Projext 4*/}
-          {/* <div className="flex flex-col md:flex-row-reverse gap-5 border p-10 mb-10 bg-gray-300 rounded-3xl shadow-lg">
+          <div className="flex flex-col md:flex-row-reverse gap-5 border p-10 mb-10 bg-gray-300 rounded-3xl shadow-lg">
             <div className="w-full md:w-1/2 p-4">
               <Image
-                src="https://picsum.photos/900/500"
+                src="/asset/jaysolution-home.png"
                 alt="img"
                 layout="responsive"
                 width={900}
@@ -168,18 +168,27 @@ function Page3() {
             </div>
             <div className="w-full md:w-1/2 p-4 flex flex-col justify-center">
               <h1 className="text-3xl text-gray-800 font-semibold mb-5">
-                Title: <span className="text-blue-500">React CRUD</span>
+                Title:{" "}
+                <span className="text-blue-500">
+                  Jay's Solution - Landing Page
+                </span>
               </h1>
               <p className="text-gray-600 leading-relaxed mb-8 text-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Accusamus recusandae aliquam delectus rem quos molestiae,
-                tenetur quae fugit unde excepturi a sunt odio veritatis quod
-                rerum, impedit natus exercitationem beatae.
+                This project is a responsive landing page for Jay's Facilities
+                Services, developed using Next.js with a focus on performance,
+                user experience, and a modern aesthetic. The page is designed to
+                showcase a wide range of facility management services, such as
+                general maintenance, plumbing, HVAC, and more. It is built with
+                TailwindCSS for rapid, utility-first styling, ensuring an
+                intuitive and visually appealing layout. This project utilizes
+                several modern tools, including Lucide-react icons and React
+                components, to deliver a seamless user experience across
+                devices.
               </p>
-            
+
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href="https://your-website-link.com"
+                  href="https://jays-facilities-services-ifivot4ak-dfbloks-projects.vercel.app"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -188,7 +197,7 @@ function Page3() {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/your-repository-link"
+                  href="https://github.com/DFBlok/jays-facilities-services"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -198,7 +207,7 @@ function Page3() {
                 </a>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </section>
     </>
