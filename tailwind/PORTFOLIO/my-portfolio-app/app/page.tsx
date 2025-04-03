@@ -28,7 +28,7 @@ export default function Home() {
               </p>
               <div className="mt-6">
                 <a
-                  href="#contact"
+                  href="/Page4"
                   className="inline-block bg-red-500 text-white px-6 py-3 rounded-full font-semibold shadow-md hover:bg-red-600 transition-all"
                   >Contact Me</a>
                 

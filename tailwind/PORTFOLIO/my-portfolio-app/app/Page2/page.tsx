@@ -19,23 +19,18 @@ const Page2 = () => {
           {/* Content */}
           <div className="flex flex-col md:flex-row gap-12">
             {/* Introduction */}
-            <div className="bg-red-500 text-white p-8 rounded-lg shadow-lg flex-1">
+            <div className="bg-gray-900 text-white p-8 rounded-lg shadow-lg flex-1">
               <h2 className="text-3xl font-bold mb-4">Get to Know Me!</h2>
               <p className="text-lg mb-4">
-                I&apos;m a <b>Full-Stack Developer</b> building and managing the
-                Front-end of Websites and Web Applications that lead to the
-                success of the overall product. Check out some of my work in the
-                Projects section.
+              Hello, my name is <b>Duwayne Blok</b>, and I am a passionate full-stack developer with a solid foundation in software development. I studied <b>Information Technology (Software Development) at Nelson Mandela University</b>, where I gained hands-on experience with a range of technologies, including <b>C#, .NET, JavaScript, and database management</b>.
               </p>
               <p className="text-lg mb-4">
-                I also like sharing content related to what I have learned over
-                the years in Web Development so it can help others in the Dev
-                Community. Feel free to connect or follow me on LinkedIn.
+              I have completed a full-stack developer learnership specializing in the MERN stack at Velisa Africa Academy, and I am now seeking an opportunity to apply my skills in a professional setting. My experience spans projects such as online booking systems and health care applications, using modern tools like Next.js, Prisma, Tailwind CSS, and Stripe.
               </p>
               <p className="text-lg mb-6">
-                I&apos;m open to job opportunities where I can contribute,
-                learn, and grow. If you have a good opportunity that matches my
-                skills and experience, don&apos;t hesitate to contact me.
+              I am driven by problem-solving and eager to grow in the tech industry, continuously honing my abilities and staying updated with emerging technologies. I would love to contribute to a forward-thinking team and leverage my skills to help build innovative solutions.
+
+
               </p>
               <a href="/ContactPage">
                 <button className="bg-blue-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-600 transition duration-300">
@@ -45,9 +40,9 @@ const Page2 = () => {
             </div>
 
             {/* Skills */}
-            <div className="bg-red-500 text-white p-8 rounded-lg shadow-lg flex-1">
+            <div className="bg-gray-900 text-white p-8 rounded-lg shadow-lg flex-1">
               <h2 className="text-2xl font-bold mb-6">My Skills</h2>
-              <div className="flex flex-wrap gap-4">
+              <div className="flex flex-wrap gap-4 cursor-pointer">
                 {[
                   "HTML",
                   "CSS",

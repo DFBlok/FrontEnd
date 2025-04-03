@@ -51,7 +51,7 @@ const Page4 = () => {
             <span className="text-xl font-medium text-gray-700">🌐 Connect with me:</span>
             <div className="flex gap-4">
               <a
-                href="https://www.linkedin.com/in/your-profile"
+                href="https://linkedin.com/in/duwayne-blok-9bb2b8184"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:text-blue-800 transition duration-300"
@@ -59,7 +59,7 @@ const Page4 = () => {
                 <FaLinkedinIn size={30}/>
               </a>
               <a
-                href="https://github.com/your-profile"
+                href="https://github.com/DFBlok"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-700 hover:text-gray-900 transition duration-300"

@@ -42,8 +42,8 @@ const Navbar = () => {
           {/**DESKTOP MENU */}
           <div className="hidden md:flex space-x-6 text-2xl">
             <Link href="/" className="hover:text-red-400 transition">Home</Link>
-            <Link href="/Page3" className="hover:text-red-400 transition">Projects</Link>
             <Link href="/Page2" className="hover:text-red-400 transition">About</Link>
+            <Link href="/Page3" className="hover:text-red-400 transition">Projects</Link>
             <Link href="/Page4" className="hover:text-red-400 transition">Contact</Link>
             
           </div>
@@ -59,8 +59,8 @@ const Navbar = () => {
         {menuOpen && (
           <div>
             <Link href="/" className="block text-center py-2 text-gray-300 hover:text-blue-400">Home</Link>
-            <Link href="/Page3" className="block text-center py-2 text-gray-300 hover:text-blue-400">Project</Link>
             <Link href="/Page2" className="block text-center py-2 text-gray-300 hover:text-blue-400">About</Link>
+            <Link href="/Page3" className="block text-center py-2 text-gray-300 hover:text-blue-400">Projects</Link>
             <Link href="/Page4" className="block text-center py-2 text-gray-300 hover:text-blue-400">Contact</Link>
           </div>
         )}
