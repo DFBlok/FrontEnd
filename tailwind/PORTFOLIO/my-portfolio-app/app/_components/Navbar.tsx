@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <header className="bg-red-600 py-4 shadow-md">
+      <header className="bg-gray-800 py-4 shadow-md">
         <nav className="w-[80%] mx-auto flex items-center justify-between flex-wrap gap-8">
           {/*LOGO OR BRAND NAME */}
           <div className="text-white text-2xl font-bold">Duwayne's Portfolio</div>
