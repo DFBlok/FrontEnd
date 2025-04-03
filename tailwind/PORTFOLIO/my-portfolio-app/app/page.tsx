@@ -3,45 +3,27 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      {/* <header className="bg-gray-200 text-white py-12 w-full ">
-        <div className="max-w-7xl mx-auto px-4 md:px-8">
-          <div className="flex flex-col gap-5 md:flex-row items-center">
-            <div className="w-1/2 md:mb-5">
-              <h1 className="text-4xl font-semibold text-red-400 py-3 md:py-0 md:text-left mb-4">
-                Hello, I&apos;m Duwayne Blok
-              </h1>
-              <p className="text-black text-center md:text-left italic ">
-                I&apos;m a Software Developer based in South Africa, Gqeberha,
-                formerly known as Port Elizabeth.
-              </p>
-            </div>
-            <div className="w-1/2 md:ml-8 ">
-              <div className="w-full md:w-96 mx-auto">
-                <Image
-                  src="/asset/profile_avatar.jpg"
-                  alt="profile"
-                  width={400}
-                  height={300}
-                  className="rounded-full"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-        
-      </header> */}
-      <header className="bg-gray-200 h-full text-gray-900 py-12 w-full">
-        <div className="max-w-7xl mx-auto px-4 md:px-8">
-          <div className="flex flex-col md:flex-row items-center gap-10">
+     
+      <header className="bg-gray-200 min-h-screen flex items-center justify-center w-full">
+        <div className="max-w-7xl mx-auto px-6 md:px-10 flex flex-col md:flex-row items-center gap-10 w-full ">
+          
             {/* Text Content */}
-            <div className="flex-1 text-center md:text-left">
-              <h1 className="text-4xl font-semibold text-red-500 mb-4">
+            <div className="flex-1 text-center md:text-left max-w-lg">
+              <h1 className="text-5xl font-bold text-red-600 mb-6">
                 Hello, I&apos;m Duwayne Blok
               </h1>
-              <p className="text-lg italic text-gray-700">
-                I&apos;m a Software Developer based in South Africa, Gqeberha,
-                formerly known as Port Elizabeth.
+              <p className="text-lg italic text-gray-800 leading-relaxed">
+              A passionate <span className="font-semibold text-red-500">Software Developer </span> 
+            based in <span className="font-semibold">Gqeberha, South Africa</span>. 
+            I love building modern, user-friendly applications that solve real-world problems.
               </p>
+              <div className="mt-6">
+                <a
+                  href="#contact"
+                  className="inline-block bg-red-500 text-white px-6 py-3 rounded-full font-semibold shadow-md hover:bg-red-600 transition-all"
+                  >Contact Me</a>
+                
+              </div>
             </div>
 
             {/* Profile Image */}
@@ -56,7 +38,7 @@ export default function Home() {
                 />
               </div>
             </div>
-          </div>
+          
         </div>
       </header>
     </>
