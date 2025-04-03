@@ -11,7 +11,7 @@ const Page4 = () => {
           Contact Information
         </h1>
         <p className="text-lg text-gray-600 mb-6 text-center">
-          Feel free to reach out through any of the following channels. I'll get back to you as soon as possible.
+          Feel free to reach out through any of the following channels. I&apos;ll get back to you as soon as possible.
         </p>
 
         {/* Contact Details */}
